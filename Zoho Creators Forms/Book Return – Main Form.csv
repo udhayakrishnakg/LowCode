@@ -1,0 +1,5 @@
+Return Number,Issue Number,Return Date,Member,Book,Total Fine,Payment Status,Return Status
+RET001,ISS005,2026-08-17,MEM006,BOOK006,0.00,Not Applicable,Returned
+RET002,ISS001,2026-08-18,MEM001,BOOK001,15.00,Paid,Returned Late
+RET003,ISS002,2026-08-19,MEM002,BOOK003,15.00,Pending,Returned Late
+RET004,ISS003,2026-08-20,MEM003,BOOK004,30.00,Pending,Returned Late

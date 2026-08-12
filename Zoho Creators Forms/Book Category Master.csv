@@ -1,0 +1,8 @@
+Category ID,Category Name,Description,Shelf Code,Status
+CAT001,Fiction,Novels and fictional literature,FIC-A,Active
+CAT002,Science,Books related to science and technology,SCI-A,Active
+CAT003,History,Indian and world history books,HIS-A,Active
+CAT004,Computer Science,Programming and computer technology books,CS-A,Active
+CAT005,Children,Books suitable for children,CHD-A,Active
+CAT006,Biography,Biographies and autobiographies,BIO-A,Active
+CAT007,Competitive Exams,Books for UPSC SSC Banking and other exams,EXM-A,Active

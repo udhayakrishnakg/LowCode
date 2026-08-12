@@ -1,0 +1,5 @@
+Return Number,Damage Type,Description,Fine Amount,Remarks
+RET001,None,No damage found,0.00,Book returned in good condition
+RET002,Cover Damage,Minor damage to front cover,15.00,Repair required
+RET003,None,No physical damage found,15.00,Fine only for late return
+RET004,Page Damage,Three pages have minor tears,30.00,Deducted as damage fine

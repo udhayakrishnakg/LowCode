@@ -1,0 +1,7 @@
+Member ID,Member Name,Membership Type,Date of Birth,Gender,Mobile Number,Email,Address,Branch,Membership Date,Membership Expiry Date,Status
+MEM001,Aditya Sharma,Annual,1998-06-15,Male,+91-9876541201,aditya.sharma@example.in,24 Lake View Road Anna Nagar Chennai 600040,BR001,2026-01-10,2027-01-09,Active
+MEM002,Priya Srinivasan,Annual,1995-02-21,Female,+91-9876541202,priya.srinivasan@example.in,18 Gandhi Road Adyar Chennai 600020,BR002,2026-02-15,2027-02-14,Active
+MEM003,Rahul Verma,Student,2004-09-12,Male,+91-9876541203,rahul.verma@example.in,42 College Road Nungambakkam Chennai 600034,BR001,2026-03-05,2027-03-04,Active
+MEM004,Ananya Iyer,Student,2003-11-30,Female,+91-9876541204,ananya.iyer@example.in,15 South Mada Street Mylapore Chennai 600004,BR003,2026-03-20,2027-03-19,Active
+MEM005,Vijay Kumar,Annual,1988-08-19,Male,+91-9876541205,vijay.kumar@example.in,33 KK Nagar Main Road Chennai 600078,BR003,2025-07-01,2026-06-30,Expired
+MEM006,Meera Nair,Senior Citizen,1962-01-08,Female,+91-9876541206,meera.nair@example.in,8 West Masi Street Madurai 625001,BR004,2026-01-20,2027-01-19,Active

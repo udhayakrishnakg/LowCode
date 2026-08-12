@@ -1,0 +1,6 @@
+Branch ID,Branch Name,Branch Code,Address,City,State,Branch Manager,Contact Number,Email Address,Status
+BR001,Anna Nagar Central Library,CHN001,12 Second Avenue Anna Nagar,Chennai,Tamil Nadu,Ravi Kumar,+91-9876543210,annanagar.library@example.in,Active
+BR002,Adyar Public Library,CHN002,45 Gandhi Road Adyar,Chennai,Tamil Nadu,Priya Menon,+91-9876501234,adyar.library@example.in,Active
+BR003,T Nagar Library,CHN003,78 Usman Road T Nagar,Chennai,Tamil Nadu,Suresh Babu,+91-9840123456,tngr.library@example.in,Active
+BR004,Madurai Central Library,MAD001,10 East Veli Street,Madurai,Tamil Nadu,Meena Krishnan,+91-9894567890,madurai.library@example.in,Active
+BR005,Coimbatore City Library,CBE001,25 RS Puram Main Road,Coimbatore,Tamil Nadu,Arun Raj,+91-9787654321,coimbatore.library@example.in,Inactive

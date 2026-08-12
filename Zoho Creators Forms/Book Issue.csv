@@ -1,0 +1,6 @@
+Issue Number,Issue Date,Member,Book,Librarian,Expected Return Date,Issue Status,Remarks
+ISS001,2026-08-01,MEM001,BOOK001,Lakshmi Priya,2026-08-15,Issued,Regular issue
+ISS002,2026-08-02,MEM002,BOOK003,Suresh Kumar,2026-08-16,Issued,Regular issue
+ISS003,2026-08-03,MEM003,BOOK004,Anitha Raj,2026-08-17,Issued,Student member
+ISS004,2026-08-04,MEM004,BOOK007,Lakshmi Priya,2026-08-18,Issued,Computer science reference
+ISS005,2026-08-05,MEM006,BOOK006,Suresh Kumar,2026-08-19,Returned,Returned before due date
