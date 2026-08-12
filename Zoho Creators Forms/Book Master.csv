@@ -1,8 +1,8 @@
 Book ID,ISBN Number,Book Title,Category,Author,Publisher,Branch,Edition,Language,Purchase Date,Purchase Cost,Shelf Number,Total Copies,Available Copies,Book Condition,Status
-BOOK001,9780143454212,The Guide,Fiction,AUTH001,PUB001,BR001,1st Edition,English,2025-04-15,399.00,FIC-A-01,5,4,Good,Active
-BOOK002,9780670085602,The God of Small Things,Fiction,AUTH002,PUB002,BR001,1st Edition,English,2025-05-20,599.00,FIC-A-02,4,4,Excellent,Active
-BOOK003,9788129142146,Five Point Someone,Fiction,AUTH003,PUB003,BR002,1st Edition,English,2025-06-10,299.00,FIC-A-03,6,5,Good,Active
-BOOK004,9789386797186,The Immortals of Meluha,Fiction,AUTH004,PUB001,BR003,2nd Edition,English,2025-07-05,450.00,FIC-A-04,5,3,Excellent,Active
-BOOK005,9789353289541,Wings of Fire,Biography,AUTH005,PUB003,BR004,10th Edition,English,2025-03-12,350.00,BIO-A-01,8,8,Excellent,Active
-BOOK006,9789354712538,Indian History,History,AUTH005,PUB004,BR004,3rd Edition,English,2025-08-18,525.00,HIS-A-01,4,4,Good,Active
-BOOK007,9789355421094,Introduction to Python,Computer Science,AUTH004,PUB005,BR005,2nd Edition,English,2025-09-01,675.00,CS-A-01,3,2,Good,Active
+BOOK001,9780143454,The Guide,Fiction,AUTH001,PUB001,BR001,1st Edition,English,2025-04-15,399.00,FIC-A-01,5,4,Good,Active
+BOOK002,9780670085,The God of Small Things,Fiction,AUTH002,PUB002,BR001,1st Edition,English,2025-05-20,599.00,FIC-A-02,4,4,Excellent,Active
+BOOK003,9788129142,Five Point Someone,Fiction,AUTH003,PUB003,BR002,1st Edition,English,2025-06-10,299.00,FIC-A-03,6,5,Good,Active
+BOOK004,9789386797,The Immortals of Meluha,Fiction,AUTH004,PUB001,BR003,2nd Edition,English,2025-07-05,450.00,FIC-A-04,5,3,Excellent,Active
+BOOK005,9789353289,Wings of Fire,Biography,AUTH005,PUB003,BR004,10th Edition,English,2025-03-12,350.00,BIO-A-01,8,8,Excellent,Active
+BOOK006,9789354712,Indian History,History,AUTH005,PUB004,BR004,3rd Edition,English,2025-08-18,525.00,HIS-A-01,4,4,Good,Active
+BOOK007,9789355421,Introduction to Python,Computer Science,AUTH004,PUB005,BR005,2nd Edition,English,2025-09-01,675.00,CS-A-01,3,2,Good,Active
