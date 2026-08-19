@@ -1,6 +1,6 @@
 /*
  * Author       : udhayakrishna.kg.2024.aid
- * Generated on : 12-Aug-2026 14:44:26
+ * Generated on : 19-Aug-2026 14:46:43
  * Version      : 1.0
  */
  application "Library Management"
@@ -1952,6 +1952,41 @@
 
 
 
+		workflow
+		{
+		form
+		{
+			Send_Email_To_User_Whenev1 as "Send Email To User Whenever Fine Form Filled"
+			{
+				type =  form
+				form = Fine_Payment
+
+				record event = on add
+
+				on success
+				{
+					actions 
+					{
+						sendmail
+						(
+							from : "zoho.adminuserid"
+							to : "zoho.loginuserid"
+							subject : "Confirmation: Fine Form received"
+							message : "<div>&lt;!DOCTYPE html&gt; <br></div><div>&lt;html&gt;<br></div><div>&nbsp; &lt;body style=\"font-family: Arial, sans-serif; color:#222;\"&gt;<br></div><div>&nbsp;&nbsp;&nbsp; &lt;p&gt;Hi, &lt;strong&gt;${zoho.loginuserid}&lt;/strong&gt;,&lt;/p&gt;<br></div><div><br></div><div>&nbsp;&nbsp;&nbsp; &lt;p&gt;Your &lt;strong&gt;Fine Form&lt;/strong&gt; has been submitted successfully.&lt;/p&gt;<br></div><div><br></div><div>&nbsp;&nbsp;&nbsp; &lt;table cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; max-width: 520px;\"&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr style=\"background:#f2f2f2;\"&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd; font-weight:600;\"&gt;Fine Amount&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd;\"&gt;${Fine_Amount}&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd; font-weight:600;\"&gt;Member&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd;\"&gt;${Member}&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr style=\"background:#f2f2f2;\"&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd; font-weight:600;\"&gt;Paid Amount&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd;\"&gt;${Paid_Amount}&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1px solid #ddd; font-weight:600;\"&gt;Payment Date&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td style=\"border:1pxsolid #ddd;\"&gt;${Payment_Date}&lt;/td&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br></div><div>&nbsp;&nbsp;&nbsp; &lt;/table&gt;<br></div><div><br></div><div>&nbsp;&nbsp;&nbsp; &lt;p style=\"margin-top: 20px;\"&gt;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thanks.<br></div><div>&nbsp;&nbsp;&nbsp; &lt;/p&gt;<br></div><div>&nbsp; &lt;/body&gt;<br></div><div>&lt;/html&gt;<br></div><div><br></div>"
+							attachments : template : _default1 as pdf
+						)
+					}
+				}
+
+			}
+		}
+
+
+
+
+
+
+	}
 	share_settings
 	{
 			"Read"
